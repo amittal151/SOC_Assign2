@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Carousel
+        </title>
+        <link rel="stylesheet" type="text/css" href="assignment2.1CSS.css">  
+    </head>
+    <body >
+        <div>
+            <h1 ><b>CAROUSEL</b></h1>
+        </div>
+        <button type ="button" onclick ="add(-3)" class ="btn"> < </button>
+        <image src = "1.jpg" style ="width:29.3% ;height :32%" class = "myslide"></image>
+        <image src = "2.jpg" style ="width:29.3% ;height :32%" class = "myslide"></image>
+        <image src = "3.jpg" style ="width:29.3% ;height :32%" class = "myslide"></image>
+        <image src = "4.jpg" style ="width:29.3% ;height :32%" class = "myslide"></image>
+        <image src = "5.jpg" style ="width:29.3% ;height :32%" class = "myslide"></image>
+        <image src = "6.jpg" style ="width:29.3% ;height :32%" class = "myslide"></image>
+        <image src = "7.jpg" style ="width:29.3% ;height :32%" class = "myslide"></image>
+        <image src = "8.jpg" style ="width:29.3% ;height :32%" class = "myslide"></image>
+        <image src = "9.jpg" style ="width:29.3% ;height :32%" class = "myslide"></image>
+        <button type= "button" onclick = "add(3)"  class="btn"> > </button>
+        <center> <h2 >GOT characters</h1></center>
+    </body>
+    <script src= "assignment2.1JS.js">
+    </script>
+</html>
