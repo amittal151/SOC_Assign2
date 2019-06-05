@@ -1,0 +1,28 @@
+
+body{
+    background-image:linear-gradient(lightblue,blue);
+}
+table,td,th{
+    border: 1px solid black;
+    margin-top:80px;
+}
+table{
+    border-collapse:collapse;
+    width:700px;
+}
+td{
+    padding:10px;
+}
+tr:nth-child(even) {
+background-color: #f2f2f2
+}
+tr:nth-child(odd) {
+background-color: #bbc2eb
+}
+tr:hover{
+    background-color: rgb(44, 158, 173) ;
+}
+
+#th{
+    text-align:center;
+}

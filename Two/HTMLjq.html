@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>
+            TABLE(jquery)
+        </title>
+        <link rel="stylesheet" type="text/css" href="CSSjq.css">  
+           
+    </head>
+    <body>
+        <center>
+            <h1 style="color:rgb(25, 0, 136)" >Sports Table</h1>
+            <form>
+            <label for = "search"><b>Search By Name</b></label>
+            <input type="text" onkeyup ="myfunc()" name ="text" id="search" placeholder="Search..">
+            </form>
+
+            <table> 
+                <thead>
+                    <th>Name</th>
+                    <th>Sport</th>
+                    <th>Team</th>
+                </thead>
+                <tbody id ="mytable">
+                <tr>
+                    <td>Virat kohli</td>
+                    <td>Cricket</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                        <td>Lionel messi</td>
+                        <td>football</td>
+                        <td>Argentina</td>
+                </tr>  
+                <tr>
+                    <td>Ronaldo</td>
+                    <td>football</td>
+                    <td>Brazil</td>
+                </tr>
+                <tr>
+                    <td>Michael phelps</td>
+                    <td>Swimming</td>
+                    <td>Australia</td>
+                </tr> 
+                <tr>
+                    <td>Sania Mirza</td>
+                    <td>Tennis</td>
+                    <td>India</td>
+                </tr>       
+                <tr>
+                        <td>Gurasheesh</td>
+                        <td>Badminton</td>
+                        <td>India</td>
+                </tr>
+            </tbody>   
+            </table>
+        </center>
+    </body>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+    <script src="jq.js">
+        
+    </script>
+</html>
