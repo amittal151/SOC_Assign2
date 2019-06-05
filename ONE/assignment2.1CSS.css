@@ -1,0 +1,26 @@
+h1{
+    text-align :center;
+    color:#510bf5;
+}
+body{
+   background-image: linear-gradient(white,lightgrey);
+}
+#btl{
+    float:left;
+}
+#btr{
+    float:right;
+}
+.myslide{
+    display : none;
+}
+.btn{
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
